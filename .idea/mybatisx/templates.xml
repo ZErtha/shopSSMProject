@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TemplatesSettings">
+    <option name="templateConfigs">
+      <TemplateContext>
+        <option name="generateConfig">
+          <GenerateConfig>
+            <option name="annotationType" value="NONE" />
+            <option name="basePackage" value="com.gec" />
+            <option name="basePath" value="src" />
+            <option name="classNameStrategy" value="camel" />
+            <option name="encoding" value="UTF-8" />
+            <option name="extraClassSuffix" value="" />
+            <option name="ignoreFieldPrefix" value="" />
+            <option name="ignoreFieldSuffix" value="" />
+            <option name="ignoreTablePrefix" value="" />
+            <option name="ignoreTableSuffix" value="" />
+            <option name="moduleName" value="shopSSMProject" />
+            <option name="modulePath" value="$PROJECT_DIR$" />
+            <option name="moduleUIInfoList">
+              <list>
+                <ModuleInfoGo>
+                  <option name="basePath" value="${domain.basePath}" />
+                  <option name="configFileName" value="mapperInterface.ftl" />
+                  <option name="configName" value="mapperInterface" />
+                  <option name="encoding" value="${domain.encoding}" />
+                  <option name="fileName" value="${domain.fileName}Mapper" />
+                  <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.java" />
+                  <option name="modulePath" value="$PROJECT_DIR$" />
+                  <option name="packageName" value="com.gec.dao" />
+                </ModuleInfoGo>
+                <ModuleInfoGo>
+                  <option name="basePath" value="src/com/gec/dao" />
+                  <option name="configFileName" value="mapperXml.ftl" />
+                  <option name="configName" value="mapperXml" />
+                  <option name="encoding" value="${domain.encoding}" />
+                  <option name="fileName" value="${domain.fileName}Mapper" />
+                  <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.xml" />
+                  <option name="modulePath" value="$PROJECT_DIR$" />
+                  <option name="packageName" value="dao" />
+                </ModuleInfoGo>
+              </list>
+            </option>
+            <option name="needToStringHashcodeEquals" value="true" />
+            <option name="needsComment" value="true" />
+            <option name="needsModel" value="true" />
+            <option name="relativePackage" value="bean" />
+            <option name="superClass" value="" />
+            <option name="tableUIInfoList">
+              <list>
+                <TableUIInfo>
+                  <option name="className" value="Category" />
+                  <option name="tableName" value="category" />
+                </TableUIInfo>
+                <TableUIInfo>
+                  <option name="className" value="Orderitem" />
+                  <option name="tableName" value="orderitem" />
+                </TableUIInfo>
+                <TableUIInfo>
+                  <option name="className" value="Orders" />
+                  <option name="tableName" value="orders" />
+                </TableUIInfo>
+                <TableUIInfo>
+                  <option name="className" value="Product" />
+                  <option name="tableName" value="product" />
+                </TableUIInfo>
+                <TableUIInfo>
+                  <option name="className" value="User" />
+                  <option name="tableName" value="user" />
+                </TableUIInfo>
+              </list>
+            </option>
+            <option name="templatesName" value="default-all" />
+          </GenerateConfig>
+        </option>
+        <option name="moduleName" value="shopSSMProject" />
+        <option name="projectPath" value="$PROJECT_DIR$" />
+        <option name="templateName" value="default-all" />
+      </TemplateContext>
+    </option>
+  </component>
+</project>
